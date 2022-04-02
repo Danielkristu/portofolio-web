@@ -8,6 +8,50 @@
     <title>Danielkristu</title>
   </head>
   <body>
+    <!-- Navigation Bar Start -->
+    <header
+      class="bg-transparent absolute top-0 left 0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-primary text-lg block py-6"
+              >danielkristu</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4"
+            >
+              <ul>
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Navigation Bar End -->
+
     <!-- Hero Section Start -->
     <section id="home" class="pt-36">
       <div class="container">
@@ -178,9 +222,9 @@
                   />
                 </svg>
               </a>
-              <!-- LinkedIn -->
+              <!-- Tiktok -->
               <a
-                href="https://l.instagram.com/?u=https%3A%2F%2Fvt.tiktok.com%2FZSd2ToL4C%2F&e=ATMK_Pl1QP65_rl3mvfBglFbYYyZjCHYMnHD1ANc3cvQW8wcqQk8_OoO_WrxfCrNHAsbWVKqnv9I7Rmaw1j97Hn_bb6zLdiA&s=1"
+                href="https://vt.tiktok.com/ZSd2ToL4C/."
                 target="blank"
                 class="w-9 h-9 mr-3 rounded-2xl flex justify-center items-center border border-dark hover:border-primary hover:bg-primary hover:text-white hover:scale-125 transition-all duration-200 hover:shadow-xl"
               >
@@ -218,11 +262,33 @@
                   />
                 </svg>
               </a>
+              <!-- Github -->
+              <a
+                href="https://github.com/Danielies367"
+                target="blank"
+                class="w-9 h-9 mr-3 rounded-2xl flex justify-center items-center border border-dark hover:border-primary hover:bg-primary hover:text-white hover:scale-125 transition-all duration-200 hover:shadow-xl"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-github"
+                  viewBox="0 0 16 16"
+                  class="fill-current hover:scale-125 transition-all duration-200"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- About Section End -->
+
+    <script src="dist/js/script.js"></script>
   </body>
 </html>
