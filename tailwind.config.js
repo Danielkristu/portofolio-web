@@ -1,4 +1,5 @@
-module.exports = {
+module.exports = {  
+  darkMode: "class",
   content: ['index.html'],
   theme: {
     container: {
@@ -16,5 +17,6 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+],
 }
