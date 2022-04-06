@@ -645,6 +645,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 10rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -808,6 +812,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-dark {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.bg-stone-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(120 113 108 / var(--tw-bg-opacity));
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .fill-current {
