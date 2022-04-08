@@ -1,3 +1,5 @@
+
+
 // Navbar Fixed
 window.onscroll = function() {
   const header = document.querySelector('header');
@@ -36,3 +38,23 @@ localStorage.theme = 'dark'
 
 // Whenever the user explicitly chooses to respect the OS preference
 localStorage.removeItem('theme')
+
+// Alert box
+
+function JSalert(){
+ 
+  swal("Congrats!", "Your message sent successfully!", "success");
+   
+  }
+
+function sendEmail(){
+  Email.send({
+    Host : "smtp.gmail.com",
+    Username : "danielkristioutomo@gmail.com",
+    Password : "tfnnymzxxjxksfdt",
+    To : 'danielkristioutomo@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : document.getElementById('name').value + " sent you a message",
+    Body : "Name: " + document.getElementById('name').value +"<br> Email: " + document.getElementById('email').value +"<br> Message: " + document.getElementById('message').value
+}).then((message) => JSalert())
+}
