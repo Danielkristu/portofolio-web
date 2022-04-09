@@ -41,8 +41,7 @@ localStorage.removeItem('theme')
 
 // Alert box
 
-function JSalert(){
- 
+function JSalert(){ 
   swal("Congrats!", "Your message sent successfully!", "success");
    
   }
